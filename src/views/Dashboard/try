@@ -1,0 +1,16 @@
+{
+  "nodes": [
+    { "id": "Rue", "color": "red" },
+    { "id": "Vin", "color": "blue" },
+    { "id": "Ira", "color": "green" },
+    { "id": "Paolo", "color": "lightgreen" },
+    { "id": "Glenn", "color": "orange" }
+  ],
+  "links": [
+    { "source": "Rue", "target": "Vin" },
+    { "source": "Rue", "target": "Ira" },
+    { "source": "Rue", "target": "Ira" },
+    { "source": "Rue", "target": "Glenn" },
+    { "source": "Ira", "target": "Paolo" }
+  ]
+}
